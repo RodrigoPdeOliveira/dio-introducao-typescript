@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weight, #height, #button {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 15vh;
+}
+
+input {
+    width: 30%;
+    box-sizing: border-box;
+}
+div > ul > li {
+    text-align: left;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
